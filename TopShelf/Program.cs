@@ -18,8 +18,6 @@ namespace TopShelf
         static void Main(string[] args)
         {
             #region MyRegion
-
-
             AbpBootstrapper abpBootstrapper = new AbpBootstrapper();
             abpBootstrapper.Initialize();
             var logCfg = new FileInfo(System.AppDomain.CurrentDomain.BaseDirectory + "log4net.config");
